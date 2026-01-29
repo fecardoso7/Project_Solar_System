@@ -1,8 +1,11 @@
 # 🪐 Project Solar System
 
-Uma aplicação interativa desenvolvida para visualizar os planetas do nosso sistema solar e listar as principais missões de exploração espacial.
 
-Este projeto foi construído durante o módulo de Front-end na **Trybe**.
+O **Project Solar System** é uma aplicação front-end interativa que simula o Sistema Solar, permitindo visualizar os planetas e explorar informações sobre missões espaciais reais.
+
+O objetivo do projeto é unir visualização, organização de dados e componentização com React, criando uma interface dinâmica e intuitiva para apresentar conceitos básicos de astronomia de forma visual e acessível.
+
+Este projeto foi desenvolvido durante o módulo de Front-end na **Trybe**, com foco em boas práticas de desenvolvimento, estruturação de componentes e reutilização de código.
 
 ---
 
@@ -17,6 +20,20 @@ Este projeto foi construído durante o módulo de Front-end na **Trybe**.
 * **HTML5**
 * **CSS3**
 * **JavaScript** (React)
+
+---
+
+## 🎯 Objetivo do projeto
+
+O principal objetivo foi praticar:
+
+- Componentização com React  
+- Organização de componentes e props  
+- Estruturação de layout com CSS  
+- Renderização de listas e dados dinâmicos  
+- Boas práticas de código front-end  
+
+Além disso, o projeto reforça conceitos de lógica, reutilização de componentes e separação de responsabilidades no código.
 
 ---
 
