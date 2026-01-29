@@ -27,15 +27,19 @@ Siga os passos abaixo para executar a aplicação em sua máquina local:
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/fecardoso7/Project_Solar_System.git
+```
 
 ```bash
 2. Acessar a pasta do projeto
 cd Project_Solar_System
+```
 
 ```bash
 3. Instalar as dependências
 npm install
+```
 
 ```bash
 4. Iniciar a aplicação
 npm start
+```
