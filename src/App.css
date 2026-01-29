@@ -1,3 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+body {
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1a3e 50%, #0f0f2e 100%);
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
+  background: transparent;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+/* Estilos globais para seções */
+section {
+  margin: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* Animações */
+header {
+  /* Posicionamento - Fixo e estável */
+  position: fixed;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%; 
+  max-width: 1200px;
+  z-index: 1000;
+
+  /* Centralização Total */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 2rem; /* Reduzi levemente o padding para menos peso visual */
+
+  /* Estética Glassmorphism CLARA */
+  background: rgba(255, 255, 255, 0.75); /* Branco com transparência */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+  /* Borda sutil e elegante */
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 24px;
+  
+  /* Sombra mais suave (cinza, não preta) */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  /* Animação e transição */
+  animation: slideIn 1s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.4s ease;
+}
+
+/* Título Ajustado para Fundo Claro */
+header h1, header .titulo {
+  color: #2D3436; /* Cinza grafite muito escuro (melhor que preto puro) */
+  font-size: 2rem; /* Leve redução para não gritar na tela */
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  /* Glow dourado removido para evitar visual datado em fundo claro */
+}
+
+header:hover {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: #FFD700; /* A borda dourada aparece apenas no foco */
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Espaçamento do corpo */
+body {
+  padding-top: 140px;
+  background-color: #F8F9FA; /* Um fundo levemente cinza ajuda o header branco a saltar */
 }
