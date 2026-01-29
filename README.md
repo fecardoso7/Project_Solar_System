@@ -8,7 +8,7 @@ Este projeto foi construído durante o módulo de Front-end na **Trybe**.
 
 ## 📸 Demonstração
 
-![Preview do Sistema Solar](src/images/Screenshot from 2026-01-29 18-42-40.png)
+![Preview do Sistema Solar](./src/images/Screenshot%20from%202026-01-29%2018-42-40.png)
 
 ---
 
