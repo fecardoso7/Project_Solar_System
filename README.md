@@ -1,7 +1,7 @@
 # 🪐 Project Solar System
 
 
-O **Project Solar System** é uma aplicação front-end interativa que simula o Sistema Solar, permitindo visualizar os planetas e explorar informações sobre missões espaciais reais.
+O **Projeto Solar System** é uma aplicação front-end interativa que simula o Sistema Solar, permitindo visualizar os planetas e explorar informações sobre missões espaciais reais.
 
 O objetivo do projeto é unir visualização, organização de dados e componentização com React, criando uma interface dinâmica e intuitiva para apresentar conceitos básicos de astronomia de forma visual e acessível.
 
